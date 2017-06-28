@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const sequelize = require('sequelize');
 const mustacheExpress = require('mustache-express');
 const models = require('./models');
@@ -26,12 +27,23 @@ app.set('view engine', 'mustache');
 //     console.log(todo.id);
 //   });
 // };
-
-
 app.get('/', function(req, res){
+  res.redirect('/link');
+})
+
+
+app.get('/link', function(req, res){
   models.todos.findAll().then(function (title){
     res.render('index', {listItems: title});
   });
+});
+
+app.post('/link', function(req, res){
+  res.redirect('/link/newtask');
+});
+
+app.get('/link/newtask', function(req, res){
+  res.render('newtask');
 });
 
 

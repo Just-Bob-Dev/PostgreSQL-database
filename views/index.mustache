@@ -7,14 +7,13 @@
   </head>
   <body>
     <h1> Todo List </h1>
-    <form class="inputContainer" action="/" method="post">
-      <input type="text" name="todoInput" value="" placeholder="write task here"/>
-      <button type="submit">submit</button>
+    <form class="inputContainer" action="/link" method="post">
+      <input type="text" name="todoInput" value="" placeholder="enter todo"><button type="submit">Add Task</button>
     </form>
     <ul class="listContainer">
       {{#listItems}}
-        <form action='/' method="post">
-          <li><button type="submit" name="markComplete" id={{id}} value={{description}}>Mark Complete</button> {{description}} </li>
+        <form action='/link' method="post">
+          <li> {{description}}<a href="/link/{{title}}/{{id}}/edit">Edit</a><br><a href="/link/{{title}}/{{id}}/delete">delete</a></li>
         </form>
         <br>
       {{/listItems}}

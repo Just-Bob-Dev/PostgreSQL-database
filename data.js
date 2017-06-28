@@ -1,7 +1,7 @@
 module.exports = {
   listItems: [
     {
-      'title': 'Todo1',
+      'title': 'todo1',
       'description': 'Build Bunker',
       'completed': null
     },
