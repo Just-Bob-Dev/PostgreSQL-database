@@ -1,0 +1,26 @@
+{
+  "name": "day2-assess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mustache-express": "^1.2.5",
+    "sequelize": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RagyHutch/PostgreSQL-database.git"
+  },
+  "author": "Robert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RagyHutch/PostgreSQL-database/issues"
+  },
+  "homepage": "https://github.com/RagyHutch/PostgreSQL-database#readme"
+}
