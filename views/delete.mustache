@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Edit or Delete</title>
+  </head>
+  <body>
+    <h1> Are you sure you want to delete this item</h1>
+    <form method="post" action="/link/{{id}}">
+      <input type="text" name="description" value={{description}}>
+      <input type="text" name="completed" value={{completed}}>
+      <button type="submit">DELETE</button>
+    </form>
+  </body>
+</html>

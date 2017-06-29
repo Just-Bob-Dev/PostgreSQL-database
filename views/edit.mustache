@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Edit or Delete</title>
+  </head>
+  <body>
+    <h1> Would you like to Edit or Delete your Todo Item</h1>
+    <form method="post" action="/link/{{id}}">
+      <input type="text" name="description" value={{description}}>
+      <input type="text" name="completed" value={{completed}}>
+      <button type="submit">edit</button>
+    </form>
+  </body>
+</html>

@@ -3,32 +3,32 @@ module.exports = {
     {
       'title': 'todo1',
       'description': 'Build Bunker',
-      'completed': null
+      'completed': 'f'
     },
     {
       'title': 'todo2',
       'description': 'get the grocieres',
-      'completed': null
+      'completed': 'f'
     },
     {
       'title': 'todo3',
       'description': 'Buy Beer',
-      'completed': null
+      'completed': 'f'
     },
     {
       'title': 'todo4',
       'description': 'Break for lunch',
-      'completed': null
+      'completed': 'f'
     },
     {
       'title': 'todo5',
       'description': 'Build fence to keep fiance happy',
-      'completed': null
+      'completed': 'f'
     },
     {
       'title': 'todo6',
       'description': 'Find the lost city of Atlantis',
-      'completed': null
+      'completed': 'f'
     }
   ]
 }

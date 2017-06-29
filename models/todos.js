@@ -1,7 +1,6 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
   var todos = sequelize.define('todos', {
-    title: DataTypes.STRING,
     description: DataTypes.STRING,
     completed: DataTypes.BOOLEAN
   }, {
